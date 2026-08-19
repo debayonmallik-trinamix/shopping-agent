@@ -8,7 +8,7 @@ from pydantic import BaseModel
 from typing import List, Optional
 
 
-load_dotenv()
+load_dotenv(override=True)
 
 
 # -------------------------
